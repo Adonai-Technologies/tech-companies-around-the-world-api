@@ -124,24 +124,24 @@ techCompaniesData = {
   },
 
   Dropboxi: {
-    id: "1",
-    company: "Acer",
+    id: "15",
+    company: " Dropboxi",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
   },
 
   Dyson: {
-    id: "1",
-    company: "Acer",
+    id: "16",
+    company: " Dyson",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
   },
 
   eBay: {
-    id: "1",
-    company: "Acer",
+    id: "17",
+    company: "eBay",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -149,7 +149,7 @@ techCompaniesData = {
 
   Facebook: {
     id: "1",
-    company: "Acer",
+    company: "Facebook",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -157,7 +157,7 @@ techCompaniesData = {
 
   Foxconn: {
     id: "1",
-    company: "Acer",
+    company: "Foxconn",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -165,7 +165,7 @@ techCompaniesData = {
 
   Fujitsu: {
     id: "1",
-    company: "Acer",
+    company: "Fujitsu",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -173,7 +173,7 @@ techCompaniesData = {
 
   "Google(Alphabet)": {
     id: "1",
-    company: "Acer",
+    company: "Google(Alphabet)",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -181,7 +181,7 @@ techCompaniesData = {
 
   Hive: {
     id: "1",
-    company: "Acer",
+    company: "Hive",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -189,7 +189,7 @@ techCompaniesData = {
 
   Honor: {
     id: "1",
-    company: "Acer",
+    company: "Honor",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -205,7 +205,7 @@ techCompaniesData = {
 
   Huawei: {
     id: "1",
-    company: "Acer",
+    company: "Huawei",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -213,7 +213,7 @@ techCompaniesData = {
 
   IBM: {
     id: "1",
-    company: "Acer",
+    company: "IBM",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -221,7 +221,7 @@ techCompaniesData = {
 
   "Instagram (Facebook)": {
     id: "1",
-    company: "Acer",
+    company: "Instagram (Facebook)",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -229,7 +229,7 @@ techCompaniesData = {
 
   Intel: {
     id: "1",
-    company: "Acer",
+    company: "Intel",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -237,7 +237,7 @@ techCompaniesData = {
 
   Kaspersky: {
     id: "1",
-    company: "Acer",
+    company: "Kaspersky",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -245,7 +245,7 @@ techCompaniesData = {
 
   Lenovo: {
     id: "1",
-    company: "Acer",
+    company: "Lenovo",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -253,7 +253,7 @@ techCompaniesData = {
 
   LG: {
     id: "1",
-    company: "Acer",
+    company: "LG",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -261,7 +261,7 @@ techCompaniesData = {
 
   Logitech: {
     id: "1",
-    company: "Acer",
+    company: "Logitech",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -269,7 +269,7 @@ techCompaniesData = {
 
   McAfee: {
     id: "1",
-    company: "Acer",
+    company: "McAfee",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -277,7 +277,7 @@ techCompaniesData = {
 
   Microsoft: {
     id: "1",
-    company: "Acer",
+    company: "Microsoft",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -285,7 +285,7 @@ techCompaniesData = {
 
   "Nest (Google)": {
     id: "1",
-    company: "Acer",
+    company: "Nest (Google)",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -293,7 +293,7 @@ techCompaniesData = {
 
   Netgear: {
     id: "1",
-    company: "Acer",
+    company: "Netgear",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -301,7 +301,7 @@ techCompaniesData = {
 
   Nintendo: {
     id: "1",
-    company: "Acer",
+    company: "Nintendo",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -309,7 +309,7 @@ techCompaniesData = {
 
   Nokia: {
     id: "1",
-    company: "Acer",
+    company: "Nokia",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -317,7 +317,7 @@ techCompaniesData = {
 
   Nvidia: {
     id: "1",
-    company: "Acer",
+    company: "Nvidia",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -325,7 +325,7 @@ techCompaniesData = {
 
   OnePlus: {
     id: "1",
-    company: "Acer",
+    company: "OnePlus",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -333,7 +333,7 @@ techCompaniesData = {
 
   Oppo: {
     id: "1",
-    company: "Acer",
+    company: "Oppo",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -341,7 +341,7 @@ techCompaniesData = {
 
   Oracle: {
     id: "1",
-    company: "Acer",
+    company: "Oracle",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -349,7 +349,7 @@ techCompaniesData = {
 
   "PayPal (eBay)": {
     id: "1",
-    company: "Acer",
+    company: "PayPal (eBay)",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -357,7 +357,7 @@ techCompaniesData = {
 
   Philips: {
     id: "1",
-    company: "Acer",
+    company: "Philips",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -365,7 +365,7 @@ techCompaniesData = {
 
   "Ring (Amazon)": {
     id: "1",
-    company: "Acer",
+    company: "Ring (Amazon)",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -373,7 +373,7 @@ techCompaniesData = {
 
   Salesforce: {
     id: "1",
-    company: "Acer",
+    company: "Salesforce",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -381,7 +381,7 @@ techCompaniesData = {
 
   Samsung: {
     id: "1",
-    company: "Acer",
+    company: "Samsung",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -389,7 +389,7 @@ techCompaniesData = {
 
   Shopify: {
     id: "1",
-    company: "Acer",
+    company: "Shopify",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -397,7 +397,7 @@ techCompaniesData = {
 
   Softbank: {
     id: "1",
-    company: "Acer",
+    company: " Softbank",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -405,7 +405,7 @@ techCompaniesData = {
 
   Sony: {
     id: "1",
-    company: "Acer",
+    company: "Sony",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -413,7 +413,7 @@ techCompaniesData = {
 
   Spotify: {
     id: "1",
-    company: "Acer",
+    company: "Spotify",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -421,7 +421,7 @@ techCompaniesData = {
 
   Squarespace: {
     id: "1",
-    company: "Acer",
+    company: "Squarespace",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -429,7 +429,7 @@ techCompaniesData = {
 
   Tencent: {
     id: "1",
-    company: "Acer",
+    company: "Tencent",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -437,7 +437,7 @@ techCompaniesData = {
 
   Tesla: {
     id: "1",
-    company: "Acer",
+    company: "Tesla",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -445,14 +445,14 @@ techCompaniesData = {
 
   "Texas Instruments": {
     id: "1",
-    company: "Acer",
+    company: "Texas Instruments",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
   },
   "TP-Link": {
     id: "1",
-    company: "Acer",
+    company: "TP-Link",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -460,7 +460,7 @@ techCompaniesData = {
 
   "Tumblr (Automattic)": {
     id: "1",
-    company: "Acer",
+    company: "Tumblr (Automattic)",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -468,7 +468,7 @@ techCompaniesData = {
 
   Twitter: {
     id: "1",
-    company: "Acer",
+    company: "Twitter",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -476,7 +476,7 @@ techCompaniesData = {
 
   Vodafone: {
     id: "1",
-    company: "Acer",
+    company: " Vodafone",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -484,7 +484,7 @@ techCompaniesData = {
 
   Wix: {
     id: "1",
-    company: "Acer",
+    company: " Wix",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -492,7 +492,7 @@ techCompaniesData = {
 
   Qualcomm: {
     id: "1",
-    company: "Acer",
+    company: " Qualcomm",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -500,7 +500,7 @@ techCompaniesData = {
 
   "WordPress.com (Automattic)": {
     id: "1",
-    company: "Acer",
+    company: "WordPress.com (Automattic)",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -508,7 +508,7 @@ techCompaniesData = {
 
   "Yahoo (Verizon Media)": {
     id: "1",
-    company: "Acer",
+    company: "Yahoo (Verizon Media)",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -516,7 +516,7 @@ techCompaniesData = {
 
   "YouTube (Google)": {
     id: "1",
-    company: "Acer",
+    company: "YouTube (Google)",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
@@ -524,7 +524,7 @@ techCompaniesData = {
 
   Zoom: {
     id: "1",
-    company: "Acer",
+    company: "Zoom",
     "founder(s)": "Stan Shih, Carolyn Yeh & George Huang",
     ceo: "Jason Chen",
     website: "https://www.acer.com/us-en/"
