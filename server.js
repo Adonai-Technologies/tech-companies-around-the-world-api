@@ -1,6 +1,6 @@
-const express = require('express')
+const express = require("express");
 const app = express();
-const herokuPort = process.env.PORT
+const herokuPort = process.env.PORT;
 const PORT = 3000;
 
 techCompaniesData = {
@@ -63,7 +63,8 @@ techCompaniesData = {
   arm: {
     id: "8",
     company: "ARM",
-    "founder(s)": "Jamie Urquhart, Mike Muller, Tudor Brown, Lee Smith, John Biggs, Harry Oldham, Dave Howard, Pete Harrod, Harry Meekings, Al Thomas, Andy Merritt & David Sea",
+    "founder(s)":
+      "Jamie Urquhart, Mike Muller, Tudor Brown, Lee Smith, John Biggs, Harry Oldham, Dave Howard, Pete Harrod, Harry Meekings, Al Thomas, Andy Merritt & David Sea",
     ceo: "Jason Chen",
     website: "https://www.arm.com/"
   },
@@ -84,56 +85,56 @@ techCompaniesData = {
     website: "https://automattic.com/"
   },
 
-  Broadcom: {
-    id: "1",
+  broadcom: {
+    id: "11",
     company: "Broadcom",
     "founder(s)": "(Started as a division of HP)",
     ceo: "Tan Hock Eng",
     website: "https://www.broadcom.com/"
   },
 
-  ByteDance: {
-    id: "11",
+  byteDance: {
+    id: "12",
     company: "ByteDance",
     "founder(s)": "Zhang Yiming & Liang Rubo",
     ceo: "Zhang Yiming",
     website: "https://www.bytedance.com/"
   },
 
-  Capgemini: {
-    id: "12",
+  capgemini: {
+    id: "13",
     company: "Capgemini",
     "founder(s)": "Serge Kampf",
     ceo: "Aiman Ezzat",
     website: "https://www.capgemini.com/"
   },
 
-  Cisco: {
-    id: "13",
+  cisco: {
+    id: "14",
     company: "Cisco",
     "founder(s)": "Leonard Bosack & Sandy Lerner",
     ceo: "Chuck Robbins",
     website: "https://www.cisco.com/"
   },
 
-  Dell: {
-    id: "14",
+  dell: {
+    id: "15",
     company: "Dell",
     "founder(s)": "Michael Dell",
     ceo: "Michael Dell",
     website: "https://www.dell.com/en-gh/lp"
   },
 
-  Dropboxi: {
-    id: "15",
+  dropboxi: {
+    id: "16",
     company: " Dropboxi",
     "founder(s)": "Drew Houston & Arash Ferdowsi",
     ceo: "Drew Houston",
     website: "https://www.acer.com/us-en/"
   },
 
-  Dyson: {
-    id: "16",
+  dyson: {
+    id: "17",
     company: " Dyson",
     "founder(s)": "James Dyson",
     ceo: "Roland Krueger",
@@ -141,425 +142,430 @@ techCompaniesData = {
   },
 
   eBay: {
-    id: "17",
+    id: "18",
     company: "eBay",
     "founder(s)": "Pierre Omidyar",
     ceo: "Jamie Iannone",
     website: "https://www.acer.com/us-en/"
   },
 
-  Facebook: {
-    id: "1",
+  facebook: {
+    id: "19",
     company: "Facebook",
-    "founder(s)": "Mark Zuckerberg, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz & Chris Hughes",
+    "founder(s)":"Mark Zuckerberg, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz & Chris Hughes",
     ceo: "Mark Zuckerberg",
     website: "https://www.acer.com/us-en/"
   },
 
-  Foxconn: {
-    id: "1",
+  foxconn: {
+    id: "20",
     company: "Foxconn",
     "founder(s)": "Terry Gou",
     ceo: "Young Liu (Chairman and President)",
     website: "https://www.acer.com/us-en/"
   },
 
-  Fujitsu: {
-    id: "1",
+  fujitsu: {
+    id: "21",
     company: "Fujitsu",
     "founder(s)": "(Started as a division of Fuji)",
     ceo: "Masami Yamamoto (Chairman)",
     website: "https://www.acer.com/us-en/"
   },
 
-  "Google(Alphabet)": {
-    id: "1",
+  "google(Alphabet)": {
+    id: "22",
     company: "Google(Alphabet)",
     "founder(s)": "Larry Page & Sergey Brin",
     ceo: "Sundar Pichai",
     website: "https://www.acer.com/us-en/"
   },
 
-  Hive: {
-    id: "1",
+  hive: {
+    id: "23",
     company: "Hive",
     "founder(s)": "(Started as a division of Centrica)",
     ceo: "unknown",
     website: "https://www.acer.com/us-en/"
   },
 
-  Honor: {
-    id: "1",
+  honor: {
+    id: "24",
     company: "Honor",
     "founder(s)": "Ren Zhengfei",
     ceo: "unknown",
     website: "https://www.acer.com/us-en/"
   },
 
-  HP: {
-    id: "1",
+  hp: {
+    id: "23",
     company: "HP",
     "founder(s)": "Bill Hewlett & David Packard",
     ceo: "Enrique Lores",
     website: "https://www.hp.com/us-en/home.html"
   },
 
-  Huawei: {
-    id: "1",
+  huawei: {
+    id: "26",
     company: "Huawei",
     "founder(s)": "Ren Zhengfei",
     ceo: "Ren Zhengfei",
     website: "https://www.huawei.com/en/?ic_medium=direct&ic_source=surlent"
   },
 
-  IBM: {
-    id: "1",
+  ibm: {
+    id: "27",
     company: "IBM",
     "founder(s)": "Charles Ranlett Flint",
     ceo: "Arvind Krishna",
     website: "https://www.ibm.com/us-en"
   },
 
-  "Instagram (Facebook)": {
-    id: "1",
-    company: "Instagram (Facebook)",
+  "instagram ": {
+    id: "28",
+    company: "Instagram ",
     "founder(s)": "Kevin Systrom & Mike Krieger",
     ceo: "unknown",
     website: ""
   },
 
-  Intel: {
-    id: "1",
+  intel: {
+    id: "29",
     company: "Intel",
     "founder(s)": "Gordon Moore & Robert Noyce",
     ceo: "Pat Gelsinger",
     website: "https://www.intel.com/content/www/us/en/homepage.html"
   },
 
-  Kaspersky: {
-    id: "1",
+  kaspersky: {
+    id: "30",
     company: "Kaspersky",
-    "founder(s)": "Eugene Kaspersky, Natalya Kaspersky, Alexey De-Monderik & Vadim Bogdanov",
+    "founder(s)":
+      "Eugene Kaspersky, Natalya Kaspersky, Alexey De-Monderik & Vadim Bogdanov",
     ceo: "Eugene Kaspersky",
     website: "https://www.kaspersky.co.za/"
   },
 
-  Lenovo: {
-    id: "1",
+  lenovo: {
+    id: "31",
     company: "Lenovo",
     "founder(s)": "Liu Chuanzhi",
     ceo: "Yang Yuanqing",
     website: "https://www.lenovo.com/gh/en/"
   },
 
-  LG: {
-    id: "1",
+  lg: {
+    id: "32",
     company: "LG",
     "founder(s)": "Koo In-hwoi",
     ceo: "Koo Kwang-mo",
     website: "https://www.lg.com/common/index"
   },
 
-  Logitech: {
-    id: "1",
+  logitech: {
+    id: "33",
     company: "Logitech",
     "founder(s)": "Daniel Borel, Pierluigi Zappacosta & Giacomo Marini",
     ceo: "Bracken Darrell",
     website: "https://www.logitech.com/"
   },
 
-  McAfee: {
-    id: "1",
+  mcafee: {
+    id: "34",
     company: "McAfee",
     "founder(s)": "John McAfee",
     ceo: "Peter Leav",
     website: "https://www.mcafee.com/"
   },
 
-  Microsoft: {
-    id: "1",
+  microsoft: {
+    id: "35",
     company: "Microsoft",
     "founder(s)": "Bill Gates & Paul Allen",
     ceo: "Satya Nadella",
     website: "https://www.microsoft.com/en-us/"
   },
 
-  "Nest (Google)": {
-    id: "1",
+  nest: {
+    id: "36",
     company: "Nest (Google)",
     "founder(s)": "Tony Fadell & Matt Rogers",
     ceo: "unknown",
-    website: ""
+    website: "https://store.google.com/"
   },
 
-  Netgear: {
-    id: "1",
+  netgear: {
+    id: "37",
     company: "Netgear",
     "founder(s)": "Patrick Lo",
     ceo: "Patrick Lo",
     website: "https://www.netgear.com/"
   },
 
-  Nintendo: {
-    id: "1",
+  nintendo: {
+    id: "38",
     company: "Nintendo",
     "founder(s)": "Fusajiro Yamauchi",
     ceo: "Shuntaro Furukawa (President)",
     website: "https://www.nintendo.com/us/"
   },
 
-  Nokia: {
-    id: "1",
+  nokia: {
+    id: "39",
     company: "Nokia",
     "founder(s)": "Fredrik Idestam, Leo Mechelin & Eduard Polón",
     ceo: "Pekka Lundmark",
     website: "https://www.nokia.com/"
   },
 
-  Nvidia: {
-    id: "1",
+  nvidia: {
+    id: "40",
     company: "Nvidia",
     "founder(s)": "Jensen Huang, Curtis Priem & Chris Malachowsky",
     ceo: "Jensen Huang",
     website: "https://www.nvidia.com/location-selector/"
   },
 
-  OnePlus: {
-    id: "1",
+  oneplus: {
+    id: "41",
     company: "OnePlus",
     "founder(s)": "Carl Pei & Pete Lau",
     ceo: "Pete Lau",
     website: "https://www.oneplus.com/us"
   },
 
-  Oppo: {
-    id: "1",
+  oppo: {
+    id: "42",
     company: "Oppo",
     "founder(s)": "Tony Chen",
     ceo: "Tony Chen",
     website: "https://www.oppo.com/en/"
   },
 
-  Oracle: {
-    id: "1",
+  oracle: {
+    id: "43",
     company: "Oracle",
     "founder(s)": "Larry Ellison, Bob Miner & Ed Oates",
     ceo: "Safra Catz",
     website: "https://www.acer.com/us-en/"
   },
 
-  "PayPal (eBay)": {
-    id: "1",
+  paypal: {
+    id: "44",
     company: "PayPal (eBay)",
-    "founder(s)": "Ken Howery, Luke Nosek, Max Levchin, Peter Thiel, Yu Pan & Elon Musk",
+    "founder(s)":
+      "Ken Howery, Luke Nosek, Max Levchin, Peter Thiel, Yu Pan & Elon Musk",
     ceo: "unknown",
     website: "https://www.paypal.com/gh/home"
   },
 
-  Philips: {
-    id: "1",
+  philips: {
+    id: "45",
     company: "Philips",
     "founder(s)": "Gerard Philips & Anton Philips",
     ceo: "Frans van Houten",
     website: "https://www.philips.com.gh/"
   },
 
-  "Ring (Amazon)": {
-    id: "1",
+  ring: {
+    id: "46",
     company: "Ring (Amazon)",
     "founder(s)": "Jamie Siminoff",
     ceo: "",
-    website: "https://www.amazon.com/stores/Ring/Ring/page/77B53039-540E-4816-BABB-49AA21285FCF"
+    website:
+      "https://www.amazon.com/stores/Ring/Ring/page/77B53039-540E-4816-BABB-49AA21285FCF"
   },
 
-  Salesforce: {
-    id: "1",
+  salesforce: {
+    id: "47",
     company: "Salesforce",
-    "founder(s)": "Marc Benioff, Parker Harris, Dave Moellenhoff & Frank Dominguez",
+    "founder(s)":
+      "Marc Benioff, Parker Harris, Dave Moellenhoff & Frank Dominguez",
     ceo: "Marc Benioff",
     website: "https://www.salesforce.com/"
   },
 
-  Samsung: {
-    id: "1",
+  samsung: {
+    id: "48",
     company: "Samsung",
     "founder(s)": "Lee Byung-chul",
     ceo: "Lee Jae-yong (President)",
     website: "https://www.samsung.com/africa_en/"
   },
 
-  Shopify: {
-    id: "1",
+  shopify: {
+    id: "49",
     company: "Shopify",
     "founder(s)": "Tobias Lütke, Daniel Weinand & Scott Lake",
     ceo: "Tobias Lütke",
     website: "https://www.shopify.com/"
   },
 
-  Softbank: {
-    id: "1",
+  softbank: {
+    id: "50",
     company: " Softbank",
     "founder(s)": "Masayoshi Son",
     ceo: "Masayoshi Son",
     website: "https://group.softbank/en/philosophy"
   },
 
-  Sony: {
-    id: "1",
+  sony: {
+    id: "51",
     company: "Sony",
     "founder(s)": "Masaru Ibuka & Akio Morita",
     ceo: "Kenichiro Yoshida",
     website: "https://www.sony.com/en/"
   },
 
-  Spotify: {
-    id: "1",
+  spotify: {
+    id: "52",
     company: "Spotify",
     "founder(s)": "Daniel Ek & Martin Lorentzon",
     ceo: "Daniel Ek",
-    website: "https://open.spotify.com/__noul__?pfhp=2c2ccb58-8a92-4713-a1c0-8b43b3090b49"
+    website:
+      "https://open.spotify.com/__noul__?pfhp=2c2ccb58-8a92-4713-a1c0-8b43b3090b49"
   },
 
-  Squarespace: {
-    id: "1",
+  squarespace: {
+    id: "53",
     company: "Squarespace",
     "founder(s)": "Anthony Casalena",
     ceo: "Anthony Casalena",
     website: "https://www.squarespace.com/"
   },
 
-  Tencent: {
-    id: "1",
+  tencent: {
+    id: "54",
     company: "Tencent",
-    "founder(s)": "Ma Huateng, Zhang Zhidong, Xu Chenye, Chen Yidan & Zeng Liqing",
+    "founder(s)":
+      "Ma Huateng, Zhang Zhidong, Xu Chenye, Chen Yidan & Zeng Liqing",
     ceo: "Ma Huateng",
     website: "https://www.tencent.com/en-us/"
   },
 
-  Tesla: {
-    id: "1",
+  tesla: {
+    id: "55",
     company: "Tesla",
     "founder(s)": "Martin Eberhard & Marc Tarpenning",
     ceo: "Elon Musk",
     website: "https://www.tesla.com/"
   },
 
-  "Texas Instruments": {
-    id: "1",
-    company: "Texas Instruments",
-    "founder(s)": "Cecil H. Green, J. Erik Jonsson, Eugene McDermott & Patrick E. Haggerty",
+  texasinstruments: {
+    id: "56",
+    company: "Texas instruments",
+    "founder(s)":
+      "Cecil H. Green, J. Erik Jonsson, Eugene McDermott & Patrick E. Haggerty",
     ceo: "Rich Templeton",
     website: "https://www.ti.com/"
   },
-  "TP-Link": {
-    id: "1",
+  tplink: {
+    id: "57",
     company: "TP-Link",
     "founder(s)": "David Karp",
     ceo: "unknown",
     website: "https://www.tp-link.com/en/"
   },
 
-  "Tumblr (Automattic)": {
-    id: "1",
+  tumblr: {
+    id: "58",
     company: "Tumblr (Automattic)",
     "founder(s)": "David Karp",
     ceo: "unknown",
     website: "https://automattic.com/"
   },
 
-  Twitter: {
-    id: "1",
+  twitter: {
+    id: "59",
     company: "Twitter",
     "founder(s)": "Jack Dorsey, Noah Glass, Biz Stone & Evan Williams",
     ceo: "Elon Musk",
     website: "https://twitter.com/home"
   },
 
-  Vodafone: {
-    id: "1",
+  vodafone: {
+    id: "60",
     company: " Vodafone",
     "founder(s)": "Ernest Harrison & Gerry Whent",
     ceo: "Nick Read",
     website: "https://www.vodafone.com/"
   },
 
-  Wix: {
-    id: "1",
+  wix: {
+    id: "61",
     company: " Wix",
     "founder(s)": "Avishai Abrahami, Nadav Abrahami & Giora Kaplan",
     ceo: "Avishai Abrahami",
     website: "https://www.wix.com/"
   },
 
-  Qualcomm: {
-    id: "1",
+  qualcomm: {
+    id: "62",
     company: " Qualcomm",
     "founder(s)": "Irwin Jacobs & Andrew Viterbi",
     ceo: "Cristiano Amon",
     website: "https://www.qualcomm.com/"
   },
 
-  "WordPress.com (Automattic)": {
-    id: "1",
+  wordpress: {
+    id: "63",
     company: "WordPress.com (Automattic)",
     "founder(s)": "Matt Mullenweg",
     ceo: "unknown",
     website: "https://wordpress.com/"
   },
 
-  "Yahoo (Verizon Media)": {
-    id: "1",
+  yahoo: {
+    id: "64",
     company: "Yahoo (Verizon Media)",
     "founder(s)": "Jerry Yang & David Filo",
     ceo: "unknown",
     website: "https://www.yahoo.com/?guccounter=1"
   },
 
-  "YouTube (Google)": {
-    id: "1",
+  youtube: {
+    id: "65",
     company: "YouTube (Google)",
     "founder(s)": "Chad Hurley, Steve Chen & Jawed Karim",
     ceo: "unknown",
     website: "https://youtube.com/"
   },
 
-  Zoom: {
-    id: "1",
+  zoom: {
+    id: "66",
     company: "Zoom",
     "founder(s)": "Eric Yuan",
     ceo: "Eric Yuan",
     website: "https://zoom.us/"
   },
 
- Unknown: {
-    id: "1",
+  unknown: {
+    id: "0",
     company: "unknown",
     "founder(s)": "unknown",
     ceo: "unknown",
     website: "unknown"
-  },
-
+  }
 };
 
 app.get("/", (request, response) => {
   response.sendFile(__dirname + "/index.html");
 });
 
-
-app.get('/api/:name', (request,response) =>{
-  const techCompanyName = request.params.name.toLowerCase()
-  if(techCompaniesData[techCompanyName]){
-      response.json(techCompaniesData[techCompanyName])
-  }else{
-      response.json(techCompaniesData['unknown'])
+app.get("/api/:brand", (request, response) => {
+  const techCompanyName = request.params.brand.toLowerCase();
+  console.log(techCompanyName);
+  if (techCompaniesData[techCompanyName]) {
+    response.json(techCompaniesData[techCompanyName]);
+  } else {
+    response.json(techCompaniesData["unknown"]);
   }
-  
-})
+});
 
 app.get("/api", (request, response) => {
   response.json(techCompaniesData);
 });
 
-app.listen(herokuPort ||PORT, () => {
+app.listen(herokuPort || PORT, () => {
   console.log(`Server is running on PORT ${PORT}, better go catch it`);
 });
