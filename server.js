@@ -173,7 +173,7 @@ techCompaniesData = {
     website: "https://www.acer.com/us-en/"
   },
 
-  "google(Alphabet)": {
+  google: {
     id: "22",
     company: "Google(Alphabet)",
     "founder(s)": "Larry Page & Sergey Brin",
